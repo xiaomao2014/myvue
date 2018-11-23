@@ -1,7 +1,7 @@
 <template>
   <div>
     <div>
-      我是home主页
+      我是home主页1
     </div>
   </div>
 </template>
