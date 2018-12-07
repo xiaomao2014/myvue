@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div>
+  <div class="footer-box">
+    <div class="footer-content">
       我是底部
     </div>
   </div>
@@ -24,5 +24,12 @@ export default {
 }
 </script>
 <style lang="less" scoped>
+.footer-box {
+  width: 100%;
+  height: 100px;
+  background-color: #eee;
+  .footer-content {
 
+  }
+}
 </style>
