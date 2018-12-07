@@ -1,0 +1,434 @@
+html,
+body {
+  overflow: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  padding: 0;
+  margin: 0;
+}
+
+body,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+input,
+p,
+blockquote,
+th,
+td {
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+body {
+  padding: 0 !important;
+  font-size: 14px;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: left;
+  background-color: transparent;
+  color: #666;
+}
+
+select {
+  font-size: 14px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+fieldset,
+img {
+  border: 0 none;
+}
+
+fieldset {
+  padding: 0;
+  margin: 0;
+}
+
+fieldset p {
+  padding: 0 0 0 8px;
+  margin: 0;
+}
+
+legend {
+  display: none;
+}
+
+address,
+caption,
+em,
+th,
+i,
+strong {
+  font-style: normal;
+  font-weight: 400;
+}
+
+table caption {
+  margin-left: -1px;
+}
+
+hr {
+  clear: both;
+  height: 2px;
+  margin: 5px 0;
+  border-width: 1px 0;
+  border-top: 1px solid #e4e4e4;
+  border-bottom: 1px solid #fff;
+  overflow: hidden;
+}
+
+ol,
+ul {
+  list-style-type: none;
+}
+
+caption,
+th {
+  text-align: left;
+}
+
+q::before,
+q::after,
+blockquote::before,
+blockquote::after {
+  content: "";
+}
+
+textarea {
+  resize: none !important;
+}
+
+button,
+input {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.icon {
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  font-size: 20px;
+  vertical-align: middle;
+  fill: currentColor;
+}
+
+.box-sizing {
+  box-sizing: border-box;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.display-inline-block {
+  display: inline-block;
+}
+
+.font-size12 {
+  font-size: 12px;
+}
+
+.font-size14 {
+  font-size: 14px;
+}
+
+.font-size16 {
+  font-size: 16px;
+}
+
+.font-size18 {
+  font-size: 18px;
+}
+
+.font-size20 {
+  font-size: 20px;
+}
+
+.font-size22 {
+  font-size: 22px;
+}
+
+.font-size24 {
+  font-size: 24px;
+}
+
+.font-size26 {
+  font-size: 26px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.border-radius5 {
+  border-radius: 5px;
+}
+
+.font-size30 {
+  font-size: 30px;
+}
+
+.font-size40 {
+  font-size: 40px;
+}
+
+.font-size60 {
+  font-size: 60px;
+}
+
+.border-radius2 {
+  border-radius: 2px;
+}
+
+.border-radius4 {
+  border-radius: 4px;
+}
+
+.clearfloat::after {
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+  content: "";
+}
+
+.clearfloat {
+  zoom: 1;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+
+.personal-height40 {
+  height: 40px;
+}
+
+.min-height500 {
+  min-height: 500px;
+}
+
+.line-height15 {
+  line-height: 15px;
+}
+
+.line-height20 {
+  line-height: 20px;
+}
+
+.line-height40 {
+  line-height: 40px;
+}
+
+.line-height30 {
+  line-height: 30px;
+}
+
+.line-height60 {
+  line-height: 60px;
+}
+
+.line-height56 {
+  line-height: 56px;
+}
+
+.line-height50 {
+  line-height: 50px;
+}
+
+.margin-top9 {
+  margin-top: 9px;
+}
+
+.margin-top16 {
+  margin-top: 16px;
+}
+
+.margin-top20 {
+  margin-top: 20px;
+}
+
+.margin-top30 {
+  margin-top: 30px;
+}
+
+.margin-top35 {
+  margin-top: 35px;
+}
+
+.margin-top45 {
+  margin-top: 45px;
+}
+
+.margin20 {
+  margin: 0 20px;
+}
+
+.margin25 {
+  margin: 0 25px;
+}
+
+.margin-bottom10 {
+  margin-bottom: 10px;
+}
+
+.margin-left10 {
+  margin-left: 10px;
+}
+
+.margin-left50 {
+  margin-left: 50px;
+}
+
+.margin-left58 {
+  margin-left: 58px;
+}
+
+.padding-top10 {
+  padding-top: 10px;
+}
+
+.padding-top20 {
+  padding-top: 20px;
+}
+
+.padding-top40 {
+  padding-top: 40px;
+}
+
+.padding-left23 {
+  padding-left: 23px;
+}
+
+.padding-right23 {
+  padding-right: 23px;
+}
+
+.padding-tb20 {
+  padding: 20px 0;
+}
+
+.padding-tb18 {
+  padding: 18px 0;
+}
+
+.padding20 {
+  padding: 20px;
+}
+
+.padding-top0 {
+  padding: 0 20px 20px;
+}
+
+.paddinglr15 {
+  padding: 0 15px;
+}
+
+.paddinglr13 {
+  padding: 0 13px;
+}
+
+.paddinglr20 {
+  padding: 0 20px;
+}
+
+.padding-left15 {
+  padding-left: 15px;
+}
+
+.padding-left25 {
+  padding-left: 25px;
+}
+
+.text-align-l {
+  text-align: left;
+}
+
+.text-align-c {
+  text-align: center;
+}
+
+.text-align-r {
+  text-align: right;
+}
+
+.font-weight600 {
+  font-weight: 600;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.flex2 {
+  flex: 2;
+}
+
+.padding-l15 {
+  padding-left: 15px;
+}
+
+.font-weight700 {
+  font-weight: 700;
+}
+
+.el-message {
+  top: 35%;
+  min-width: 0;
+}
+
+.color-black {
+  color: #000;
+}
+
+.margin-top2 {
+  margin-top: 2px;
+}
+
+/* input:number(去除增加减少箭头) 样式 */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: textfield;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
