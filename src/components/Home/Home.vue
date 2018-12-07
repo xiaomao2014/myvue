@@ -5,7 +5,7 @@
     <!-- 2.0 主页主体 -->
     <div class="home-content">
       我是home主页1
-      <h2>我改动了：增加了远程develop分支和本地的develop</h2>
+      我在 develop分支上
     </div>
     <!-- 3.0 尾部 -->
     <Footer />
