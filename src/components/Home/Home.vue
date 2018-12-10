@@ -6,6 +6,7 @@
     <div class="home-content">
       我是home主页1
       我在 develop分支上
+      <h4>我是fixbug修复的bug</h4>
     </div>
     <!-- 3.0 尾部 -->
     <Footer />
@@ -41,6 +42,9 @@ export default {
     height: 700px;
     margin: 0 auto;
     background-color: #fff;
+    h4 {
+      color: red;
+    }
   }
 }
 </style>
