@@ -3,6 +3,7 @@
     <div class="footer-content">
       我是底部
       <h4>我是第一版</h4>
+      <h3>我来测试这个</h3>
     </div>
   </div>
 </template>
