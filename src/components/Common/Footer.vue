@@ -2,6 +2,7 @@
   <div class="footer-box">
     <div class="footer-content">
       我是底部
+      <h4>我是第一版</h4>
     </div>
   </div>
 </template>
