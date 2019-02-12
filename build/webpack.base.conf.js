@@ -77,6 +77,10 @@ module.exports = {
       }
     ]
   },
+  // externals: {
+  //   'vue': 'Vue',
+  //   'element': 'element-ui'
+  // },
   node: {
     // prevent webpack from injecting useless setImmediate polyfill because Vue
     // source contains it (although only uses it if it's native).
