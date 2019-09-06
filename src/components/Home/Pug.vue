@@ -29,13 +29,13 @@ export default {
   methods: {}
 }
 </script>
-<style lang="less" scoped>
-  .home-box {
-    .home-content {
-      width: 1300px;
-      height: 700px;
-      margin: 0 auto;
-      background-color: #fff;
-    }
-  }
+<style lang="stylus" scoped>
+  .home-box
+    .home-content
+      width 1300px
+      height 700px
+      margin 0 auto
+      background-color #fff
+      color red
+      font-size 16px
 </style>
