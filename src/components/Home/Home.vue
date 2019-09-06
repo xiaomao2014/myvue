@@ -10,7 +10,12 @@
       <h3>我是master上拉出来的fix分支改紧急bug的</h3>
       <br> -->
       <h5>element-ui组件使用</h5>
-      <el-button type="primary">主要按钮</el-button>
+      <el-button
+        type="primary"
+        @click="jumpPug"
+      >
+        主要按钮/跳转pug页面
+      </el-button>
       <el-button type="success">成功按钮</el-button>
       <el-button type="info">信息按钮</el-button>
       <el-button type="warning">警告按钮</el-button>
@@ -78,13 +83,18 @@ export default {
   },
   created () {},
   mounted () {},
-  activited () {},
+  activated () {},
   updated () {},
   beforeRouteUpdate () {},
   filter: {},
   computed: {},
   watch: {},
-  methods: {}
+  methods: {
+    jumpPug () {
+      this.$router.push('/Pug')
+      this.$router.push({ path: '/Pug' })
+    }
+  }
 }
 </script>
 <style lang="less" scoped>

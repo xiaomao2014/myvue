@@ -17,7 +17,7 @@ export default {
   },
   created () {},
   mounted () {},
-  activited () {},
+  activated () {},
   updated () {},
   beforeRouteUpdate () {},
   filter: {},
